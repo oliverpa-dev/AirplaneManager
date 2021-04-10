@@ -1,5 +1,26 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+.airplane-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 90px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px black solid;
+}
+
+.airplane-name {
+    margin-top: 5px;
+    width: 150px;
+}
+
+.airplane-add {
+    margin-top: 10px;
+    width: 150px;
 }

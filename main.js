@@ -11,12 +11,12 @@ class Airplane {
         this.economyClassSeat = economyClassSeat;
     }
     airplaneInfo() {
-        return "ID: " + this.iD + ", "  + "Type: " + this.type + ", " + "Flight attandants: " + this.flightAttandant+ ", " + "Pilots: " + this.pilot+ ", " + "Business Class Seat: " + this.businessClassSeat+ ", " + "Economy Class Seat: "  + this.economyClassSeat;
+        return "ID: " + this.iD + ", " + "Type: " + this.type + ", " + "Flight attandants: " + this.flightAttandant + ", " + "Pilots: " + this.pilot + ", " + "Business Class Seat: " + this.businessClassSeat + ", " + "Economy Class Seat: " + this.economyClassSeat;
     }
 }
 
 
-let airplane =  new Airplane("54312", "Boeing", 6, 4, 34, 32);
+let airplane = new Airplane("54312", "Boeing", 6, 4, 34, 32);
 
 let button = document.getElementById("demo2").addEventListener("click", myFunction);
 function myFunction() {
